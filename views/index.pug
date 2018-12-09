@@ -1,5 +1,14 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1 node-pdf-demo
+  h2 Usage
+  p Run: nodemon --ignore sessions/ app.js
+
+  h2 Functions
+  p Create pdf
+  lu
+    li
+      a(href='/pdf') /pdf
+    li
+      a(href='/users') /users

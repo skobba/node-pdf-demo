@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1 pdf
+  br
+  a(href='/') /home
+  br
+
+
+  block content
+    .main.container
+      .row
+        .col-md-6.col-md-offset-3
+
+          h3.display-4.m-b-2 Create pdf
+          // post form
+          form(method='POST' action='/pdf')
+            button.btn.btn-primary(type='submit') Create
