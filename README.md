@@ -1,10 +1,8 @@
+
+
 # Ref
-https://blog.stahlmandesign.com/export-html-to-pdf-how-hard-can-it-be/
-
-http://pdfmake.org/playground.html
-
-# Good demo with mail
 https://github.com/Donnzh/node-pdfmake-demo
+http://pdfmake.org/playground.html
 
 # Run
 nodemon ./app.js localhost 3000
@@ -13,6 +11,8 @@ nodemon ./app.js localhost 3000
 npm i pdfmake --save
 npm i body-parser --save
 
+# Some pdf tools
+https://blog.stahlmandesign.com/export-html-to-pdf-how-hard-can-it-be/
 
 
 
