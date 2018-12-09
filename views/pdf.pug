@@ -14,5 +14,6 @@ block content
 
           h3.display-4.m-b-2 Create pdf
           // post form
-          form(method='POST' action='/pdf')
+          form(method='POST' action='/pdfmake')
             button.btn.btn-primary(type='submit') Create
+            textarea(placeholder="Description", name="items") Items
